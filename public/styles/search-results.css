@@ -1,11 +1,16 @@
-body::after {
-  content: '';
-  position: fixed;
+body {
   background: white;
-  top: 260px;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  background: #f0f0f5;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+  height: 16rem;
   z-index: -1;
 }
 
@@ -31,7 +36,7 @@ header a {
 
 header a span {
   margin-right: 16px;
-  background-image: url('../assets/arrow-left.svg');
+  background-image: url("../assets/arrow-left.svg");
   width: 20px;
   height: 26px;
   display: flex;

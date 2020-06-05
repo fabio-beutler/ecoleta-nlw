@@ -27,7 +27,7 @@
 }
 
 #modal .header a {
-  background-image: url('../assets/x.svg');
+  background-image: url("../assets/x.svg");
   width: 20px;
   height: 20px;
   font-size: 0.01px;
@@ -71,4 +71,16 @@
 
 #modal form button:hover {
   background-color: #2fb86e;
+}
+
+/* Isto é para o modal point-created */
+#modal.point .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal.point h1 {
+  color: #fff;
+  margin-top: 32px;
 }
