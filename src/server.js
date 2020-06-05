@@ -8,7 +8,7 @@ server.use(express.static('public'));
 const nunjucks = require('nunjucks');
 nunjucks.configure('src/views', {
   express: server,
-  noCache: true,
+  noCache: true
 });
 
 // Configurar caminhos da minha aplicação
