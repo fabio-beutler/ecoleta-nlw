@@ -8,7 +8,7 @@
     text-align: center;
   }
 
-  #page-home header a {
+  #page-home header #create-point {
     position: absolute;
     bottom: 48px;
 
@@ -38,6 +38,98 @@
 
   #page-create-point .field-group .field + .field {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 487px) {
+  #page-home main h1 {
+    font-size: 32px;
+  }
+
+  #page-home main p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  #page-home main a strong {
+    font-size: 16px;
+  }
+
+  #page-home header #create-point {
+    align-items: center;
+  }
+
+  #page-home header a span {
+    width: 35px;
+    background-repeat: no-repeat;
+  }
+  #modal .content {
+    width: 80%;
+  }
+
+  #modal .header h1 {
+    font-size: 32px;
+  }
+
+  #modal .header form {
+    margin: auto 32px;
+  }
+
+  #modal form input {
+    padding: 16px 14px;
+  }
+
+  #modal form button {
+    width: 50px;
+    height: 50px;
+  }
+
+  #page-search-results header {
+    margin: 30px 15px 0;
+  }
+
+  #page-search-results header a {
+    font-size: 13px;
+  }
+
+  #page-search-results header a span {
+    margin-right: 8px;
+  }
+
+  #page-search-results header a img {
+    width: 120px;
+  }
+
+  #page-create-point {
+    width: 90%;
+  }
+
+  #page-create-point header {
+    margin: 30px 15px 0;
+  }
+
+  #page-create-point header a {
+    font-size: 13px;
+  }
+
+  #page-create-point header a span {
+    margin-right: 8px;
+  }
+
+  #page-create-point > header > a:nth-child(1) > img {
+    width: 120px;
+  }
+
+  #page-create-point form {
+    padding: 35px;
+  }
+
+  #page-create-point .items-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+  #page-create-point > form > fieldset:nth-child(3) > legend > span {
+    font-size: 12px;
   }
 }
 
