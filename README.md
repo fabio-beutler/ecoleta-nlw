@@ -15,7 +15,7 @@
   <a href="LICENSE" >
 <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
   </a>
-  <a href="LICENSE" >
+  <a href="https://github.com/Rocketseat" >
 <img alt="made by" src="https://img.shields.io/badge/with%20the%20support%20of-rocketseat-purple">
   </a>
 </p>
